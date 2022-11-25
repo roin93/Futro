@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         SkipeBesucher
-// @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Klickt auf jetzt surfen und überspringt die werbelose Seite
+// @description  Klickt auf "jetzt surfen" und überspringt die werbelose Seite
 // @author       Blin4ik
 // @match        https://www.ebesucher.de/surfbar/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        none
+// ==UserScript==
+
 
 function FindButtons() {
     var buttonMatches = [],
@@ -39,5 +40,5 @@ function FindButtons() {
                 window.location.assign(surflink);
             }
         }
-    }, 5000);
+    }, 5000); // wait 5 seconds
 })();
