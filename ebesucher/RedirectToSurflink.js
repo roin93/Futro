@@ -2,7 +2,7 @@
 // @name         RedirectToSurflink
 // @version      1.0
 // @description  nach 10 minuten wird automatisch auf den surflink navigiert
-// @author       Blin4ik
+// @author       Blinchik
 // @match        https://*/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=cnoops.de
 // @grant        none
