@@ -10,14 +10,14 @@
 
 (function() {
      'use strict';
-    var surflink = "https://www.ebesucher.de/surfbar/[surflink]" // dein surflink
-    window.addEventListener('load', function() {
+     var surflink = "https://www.ebesucher.de/surfbar/[surflink]" // dein surflink
      var currentUrl = document.URL;
-     setTimeout(function() {
-     var activeUrl = document.URL;
-        if (currentUrl == activeUrl) {
-          window.location.assign(surflink);
-        }
-    }, 600000); // wait 10 minutes
-}, false);
+     setTimeout(function() 
+     {
+          var activeUrl = document.URL;
+          if (currentUrl == activeUrl) 
+          {
+               window.location.assign(surflink);
+          }
+     }, 600000); // wait 10 minutes
 })();
