@@ -1,5 +1,18 @@
 Ausführen der JavaScripte
 ------------------------------
+
+RedirectToSurflink.js
+Eine Webseite kann lt. eBesucher maximal nur 10 Minuten offen sein, dieses Script sorgt dafür,
+dass nach 10 Minuten wieder auf deinen Surflink weitergeleitet wird, da manchmal auch Webseiten hängen bleiben.
+
+SkipEBesucher.js
+Dieses Script drückt automatisch auf den "Jetzt surfen" Button falls die Webseite angezeigt wird, dass die 
+IP bereits in benutzung ist, manchmal kommt man ohne Captcha durch, andernfalls muss man die Zeit abwarten.
+Des Weiteren werden die Werbelosen Webseiten von eBesucher übersprungen indem direkt auf dein Surflink navigiert wird,
+um ein Refresh zu anzufeuern. 
+In dem Script können noch weitere ausnahme Webseiten definiert werden, siehe beschreibung unten.
+
+
 Das benötigte Addon ist für MsEgde, Chrome, Opera (und Firefox) verfügbar.
 ACHTUNG: Ebesucher erkennt das Addon nur im Firefox als AddBlocker und ist daher nicht zu gebrauchen.
 
