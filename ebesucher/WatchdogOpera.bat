@@ -20,7 +20,7 @@ Powershell -C "Get-Process opera | ForEach-Object { $_.CloseMainWindow() | Out-N
 timeout /t 10 /nobreak > NUL
 
 :: kill dead processes to clear memory
-taskkill /IM opera.exe /F 2> nul
+taskkill /IM opera.exe /F /T 2> nul
 timeout /t 10 /nobreak > NUL
 
 :Starting
