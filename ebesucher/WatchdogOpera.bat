@@ -1,5 +1,6 @@
 :: Description: This batch file will restart opera.exe every 30 minutes 
 :: Authors: roin93 & Blinchik
+:: Tested on Windows 11 Pro
 
 @ECHO OFF
 title Watchdog for opera
