@@ -6,8 +6,9 @@
 title Watchdog for MS Edge
 SET P=msedge.exe
 
-:Beginning
 ECHO %date% %time% - Every 30 minutes this script will close msedge.exe and will start it again.
+
+:Beginning
 :: List all Processes which contain P, but do not show in terminal
 TASKLIST | FINDSTR /I "%P%" > NUL
 
