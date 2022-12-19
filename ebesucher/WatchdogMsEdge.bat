@@ -1,5 +1,6 @@
 :: Description: This batch file will restart msedge.exe every 30 minutes 
 :: Authors: roin93 & Blinchik
+:: Tested on Windows 11 Pro
 
 @ECHO OFF
 title Watchdog for MS Edge
