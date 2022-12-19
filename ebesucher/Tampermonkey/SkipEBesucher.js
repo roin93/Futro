@@ -6,7 +6,7 @@
 // @match        https://www.ebesucher.de/surfbar/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tampermonkey.net
 // @grant        none
-// ==UserScript==
+// ==/UserScript==
 
 
 function FindButtons() {
@@ -27,7 +27,7 @@ function FindButtons() {
 
 (function() {
     'use strict';
-     var surflink = "https://www.ebesucher.de/surfbar/[surflink]"  // dein surflink
+     var surflink = "https://www.ebesucher.de/surfbar/[surflink]" // dein surflink
      setTimeout(function() 
      {
         var buttons = FindButtons();
