@@ -20,7 +20,7 @@ Powershell -C "Get-Process msedge | ForEach-Object { $_.CloseMainWindow() | Out-
 timeout /t 10 /nobreak > NUL
 
 :: Kill dead processes to clear memory
-taskkill /IM msedge.exe /F 2> nul
+taskkill /IM msedge.exe /F /T 2> nul
 timeout /t 10 /nobreak > NUL 
 
 :Starting
